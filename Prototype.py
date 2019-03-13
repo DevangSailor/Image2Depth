@@ -62,14 +62,6 @@ def Build(inputs):
 	Y4 = tf.layers.conv2d(inputs=Y4,filters=1,kernel_size=5,strides=1,dilation_rate=1,activation=tf.nn.relu,padding='same',)
 	return Y1,Y2,Y3,Y4
 
-ph=tf.placeholder(tf.float32,shape=(1,512,512,3))
-out=Build(ph)
-
-with tf.Session() as sess:
-	sess.run(tf.initialize_all_variables())
-	a=np.zeros((1,512,512,3))
-	_,b,c,d=sess.run(out,feed_dict={ph:a})
-	print(_.shape,b.shape,c.shape,d.shape)
 
 
 
