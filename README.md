@@ -76,13 +76,14 @@ L4 is  absolute mean difference at original resolution
 </p>
 
 ### Some observations
-
+We can see in the mean and standard deviation plot that the predicted depth is showing characteristics of a gamma function. Since the predicted depth should be linear and identical to ground truth depth, hence we can apply a gamma correction to output depth image which will give us better results.
 
 ### Postprocessing results
 We applied gamma correction on the predicted depth images:
 
 <br>
-				Output Image					Output image with gamma correction
+<p>
+				Output Image					Output image with gamma correction</p>
 <p align='center'>
   <img src='./outputs/readme_out/original_o.png' style="width: 300px;" />
   <img src='./outputs/readme_out/post_o.png' style="width: 300px;" />
