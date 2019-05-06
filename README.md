@@ -30,17 +30,25 @@ Here, DCNN block mentioned is:-
 
 ## Some Results
 
+<p align='float'>
+  <img src='./outputs/readme_out/input_1.png' style="width: 300px;" />
+  <img src='./outputs/readme_out/gt_1.png' style="width: 300px;" />
+  <img src='./outputs/readme_out/output_1.png' style="width: 300px;" />
+</p>
 
 <br>
 	<br>
-<b> Here is the plot of the losses</b>
+<b> Here is the plot of the losses:</b>
 <br>
 <br>
 
 <p align='float'>
   <img src='./outputs/readme_out/loss.png' style="width: 300px;" />
 </p>
-
+L1 is 
+L2 is
+L3 is 
+L4 is
 
 
 ### Some observations
