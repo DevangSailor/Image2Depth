@@ -80,12 +80,13 @@ We can see in the mean and standard deviation plot that the predicted depth is s
 
 ### Postprocessing results
 We applied gamma correction on the predicted depth images:
-
 <br>
+<br>Output Image
 <p>
-				Output Image					Output image with gamma correction</p>
-<p align='center'>
   <img src='./outputs/readme_out/original_o.png' style="width: 300px;" />
+</p>
+<br>Output image with gamma correction
+<p>
   <img src='./outputs/readme_out/post_o.png' style="width: 300px;" />
 </p>
 
