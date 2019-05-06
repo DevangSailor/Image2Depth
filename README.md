@@ -103,6 +103,14 @@ python libraries please use the requiremets.txt file.
 ```
 This text file contains all the requirements except [cv2 install guide](https://www.pyimagesearch.com/2018/05/28/ubuntu-18-04-how-to-install-opencv/).
 
+To be able to train and validate your model, create 2 .json files of the names train.json and val.json ad they should be of the
+following format:
+```json
+  {
+    "<full path and name of input image>":"<full path and name of the corresponding ground truth image>"
+  }
+```
+
 
 
 ## Instructions
@@ -122,3 +130,8 @@ pleaser make sure that the image that you have provided is in 4:3 in W:H ratio. 
 
 
 ## References
+[Densely connected convolutional network.](https://arxiv.org/abs/1608.06993)
+
+[Appolo Dataset](http://apollo.auto/opendata.html)
+
+[Microsoft AirSim for autonomous vehicle environments](https://github.com/Microsoft/AirSim)
