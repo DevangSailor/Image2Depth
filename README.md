@@ -4,7 +4,7 @@
 Depth prediction from monocular images for Autonomous Driving.
 
 ## Solution Approach
-
+We are solving this problem by using a multiscale regression cnn.
 
 ## Dataset
 We have used [Apollo Scenes](http://data.apollo.auto/?locale=en-us&lang=en) dataset and a custom dataset created by us using <b> AirSim Engine by Unity and Microsoft</b> in this project.
@@ -92,7 +92,7 @@ We applied gamma correction on the predicted depth images:
 
 <b> Pseudo color result images </b> <br>
 Ground Truth
-<p align='center'>
+<p>
   <img src='./outputs/readme_out/gt_color.png' style="width: 300px;" />
 </p>
 Original output
