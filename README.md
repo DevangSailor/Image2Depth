@@ -30,7 +30,7 @@ Here, DCNN block mentioned is:-
 
 ## Some Results
 
-<p align='float'>
+<p align='center'>
   <img src='./outputs/readme_out/input_1.png' style="width: 300px;" />
   <img src='./outputs/readme_out/gt_1.png' style="width: 300px;" />
   <img src='./outputs/readme_out/output_1.png' style="width: 300px;" />
