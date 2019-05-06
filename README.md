@@ -66,10 +66,34 @@ L3 is
 <br> 
 L4 is
 
-
+<br>
+	<br>
+<b> Here is the mean and standard deviation plot:</b>
+<br>
+<br>
+<p align='float'>
+  <img src='./outputs/readme_out/mean_plot.png' style="width: 300px;" />
+</p>
 ### Some observations
 
 
+### Postprocessing results
+We applied gamma correction on the predicted depth images:
+
+<br>
+			Output Image				Output image with gamma correction
+<p align='center'>
+  <img src='./outputs/readme_out/original_o.png' style="width: 300px;" />
+  <img src='./outputs/readme_out/post_o.png' style="width: 300px;" />
+</p>
+
+<b> Pseudo color result images </b>
+			Ground Truth			Original output			Output with gamma correction
+<p align='center'>
+  <img src='./outputs/readme_out/gt_color.png' style="width: 300px;" />
+  <img src='./outputs/readme_out/output_color.png' style="width: 300px;" />
+  <img src='./outputs/readme_out/gamma_color.png' style="width: 300px;" />
+</p>
 
 ## Requirements 
 
