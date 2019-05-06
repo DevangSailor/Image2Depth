@@ -97,6 +97,10 @@ The R<sup>2</sup> metric score for different cases is as follows:
 | Output without Gamma correction       | 0.700598             |
 | Output with GC (gamma = 0.8)       	| 0.757086             |
 | Output with GC (gamma = 0.5)     		| 0.931790             |
+
+<br>
+<br>
+<br>
 <b> Pseudo color result images </b> <br>
 Ground Truth
 <p>
