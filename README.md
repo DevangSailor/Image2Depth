@@ -3,7 +3,7 @@
 ## Objective
 Depth prediction from monocular images for Autonomous Driving.
 
-## Solution Approaches
+## Solution Approach
 
 
 ## Dataset
@@ -35,7 +35,16 @@ Here, DCNN block mentioned is:-
   <img src='./outputs/readme_out/gt_1.png' style="width: 300px;" />
   <img src='./outputs/readme_out/output_1.png' style="width: 300px;" />
 </p>
-
+<p align='center'>
+  <img src='./outputs/readme_out/input_2.png' style="width: 300px;" />
+  <img src='./outputs/readme_out/gt_2.png' style="width: 300px;" />
+  <img src='./outputs/readme_out/output_2.png' style="width: 300px;" />
+</p>
+<p align='center'>
+  <img src='./outputs/readme_out/input_3.png' style="width: 300px;" />
+  <img src='./outputs/readme_out/gt_3.png' style="width: 300px;" />
+  <img src='./outputs/readme_out/output_3.png' style="width: 300px;" />
+</p>
 <br>
 	<br>
 <b> Here is the plot of the losses:</b>
@@ -45,9 +54,13 @@ Here, DCNN block mentioned is:-
 <p align='float'>
   <img src='./outputs/readme_out/loss.png' style="width: 300px;" />
 </p>
-L1 is 
+<br>
+L1 is
+<br> 
 L2 is
-L3 is 
+<br>
+L3 is
+<br> 
 L4 is
 
 
