@@ -25,7 +25,7 @@ Model architecture used by us is:-
   <img src='./outputs/readme_out/model.png' alt='model'/>
 </p>
 
-Here, DCNN block mentioned is:-
+Here, DCN block mentioned is:-
 <p align='center'>
   <img src='./outputs/readme_out/DCNN.png' alt='dcnn'/>
 </p>
@@ -90,6 +90,13 @@ We applied gamma correction on the predicted depth images:
   <img src='./outputs/readme_out/post_o.png' style="width: 300px;" />
 </p>
 
+The R<sup>2</sup> metric score for different cases is as follows:
+
+| Case									| score					|
+| --------------------------------------|:--------------------:|
+| Output without Gamma correction       | 0.700598             |
+| Output with GC (gamma = 0.8)       	| 0.757086             |
+| Output with GC (gamma = 0.5)     		| 0.931790             |
 <b> Pseudo color result images </b> <br>
 Ground Truth
 <p>
