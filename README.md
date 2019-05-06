@@ -91,12 +91,15 @@ We applied gamma correction on the predicted depth images:
 </p>
 
 <b> Pseudo color result images </b> <br>
-				Ground Truth					Original output
+Ground Truth
 <p align='center'>
   <img src='./outputs/readme_out/gt_color.png' style="width: 300px;" />
+</p>
+Original output
+<p>
   <img src='./outputs/readme_out/output_color.png' style="width: 300px;" />
 </p>
-				Output with gamma correction
+Output with gamma correction
 <p>
   <img src='./outputs/readme_out/gamma_color.png' style="width: 300px;" />
 </p>
@@ -120,7 +123,7 @@ following format:
 
 
 ## Instructions
-First and foremost please download the model checkpoint from [here]() and save the uncompressed files inside ./tmp
+First and foremost please download the model checkpoint from [here](https://drive.google.com/file/d/1iH9Y3aTZLAX17xQIf-TCa6t6rZPB1sF6/view?usp=sharing) and save the uncompressed files inside ./tmp
 
 There are 2 things we can do here:
 1 Train from scratch:
