@@ -81,13 +81,13 @@ L4 is  absolute mean difference at original resolution
 We applied gamma correction on the predicted depth images:
 
 <br>
-			Output Image				Output image with gamma correction
+			Output Image			Output image with gamma correction
 <p align='center'>
   <img src='./outputs/readme_out/original_o.png' style="width: 300px;" />
   <img src='./outputs/readme_out/post_o.png' style="width: 300px;" />
 </p>
 
-<b> Pseudo color result images </b>
+<b> Pseudo color result images </b> <br>
 			Ground Truth			Original output			Output with gamma correction
 <p align='center'>
   <img src='./outputs/readme_out/gt_color.png' style="width: 300px;" />
