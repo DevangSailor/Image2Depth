@@ -14,7 +14,7 @@ Apollo dataset consists of 23k images.
 Custom dataset created by us consists of 99k images.
 
 ## Pre-processing
-We clipped the depth image at 80 instead of 165. This is done to focus more on the depth upto 80m as in autonomous driving vision upto 80m is good enough for desicion making. 
+We clipped the depth image at 80 instead of 165. This is done to focus more on the depth upto 80m as in autonomous driving vision upto 80m is good enough for desicion making.
 <br>
 We also removed the upper half of the both rgb and depth image to remove sky from the scene.
 
@@ -106,6 +106,19 @@ This text file contains all the requirements except [cv2 install guide](https://
 
 
 ## Instructions
+First and foremost please download the model checkpoint from [here]() and save the uncompressed files inside ./tmp
+
+There are 2 things we can do here:
+1 Train from scratch:
+
+```
+    $ python execute.py -m train
+```
+2 Test on images in the ./test folder
+pleaser make sure that the image that you have provided is in 4:3 in W:H ratio. The given image will be first resized to (800,600) first and the input to the network is the IMAGE[H-288:H,W] and the result is the depth estimate stitched parallel to the given input.  
+```
+    $ python execute.py -m test
+```
 
 
 ## References
