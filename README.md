@@ -7,9 +7,11 @@ Depth prediction from monocular images for Autonomous Driving.
 
 
 ## Dataset
-We have used [Apollo Scenes](http://data.apollo.auto/?locale=en-us&lang=en) dataset and a custom dataset created by us using <b AirSim Engine by Unity and Microsoft/> in this project.
-Apollo dataset consists of ________ images. 
-Custom dataset created by us consists of ________ images.
+We have used [Apollo Scenes](http://data.apollo.auto/?locale=en-us&lang=en) dataset and a custom dataset created by us using <b> AirSim Engine by Unity and Microsoft</b> in this project.
+<br>
+Apollo dataset consists of 23k images. 
+<br>
+Custom dataset created by us consists of 99k images.
 
 ## Pre-processing
 We clipped the depth image at 80 instead of 165. This is done to focus more on the depth upto 80m.
