@@ -33,12 +33,12 @@ Here, DCNN block mentioned is:-
 
 <br>
 	<br>
-<b> Here is the plots of the losses</b>
+<b> Here is the plot of the losses</b>
 <br>
 <br>
 
 <p align='float'>
-  <img src='./outputs/readme_out/plot.png' style="width: 300px;" />
+  <img src='./outputs/readme_out/loss.png' style="width: 300px;" />
 </p>
 
 
