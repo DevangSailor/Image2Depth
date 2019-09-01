@@ -14,7 +14,7 @@ Apollo dataset consists of 23k images.
 Custom dataset created by us consists of 99k images.
 
 ## Pre-processing
-We clipped the depth image at 80 instead of 165. This is done to focus more on the depth upto 80m as in autonomous driving vision upto 80m is good enough for desicion making.
+We clipped the depth image at 80 instead of 165. This is done to focus more on depth upto 80m (near sight vision)
 <br>
 We also removed the upper half of the both rgb and depth image to remove sky from the scene.
 
